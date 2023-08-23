@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import Details from "../../components/MoreInfoComponents/Details";
 
-const DiscoverTVShowsInformation = () => {
+const DiscoverFilmsInformation = () => {
   const { url } = useParams();
 
   const type = url.replace(/[^A-Za-z]/g, "");
@@ -11,4 +11,4 @@ const DiscoverTVShowsInformation = () => {
   return <Details type={type} id={id} />;
 };
 
-export default DiscoverTVShowsInformation;
+export default DiscoverFilmsInformation;
