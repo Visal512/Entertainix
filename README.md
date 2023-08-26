@@ -26,4 +26,4 @@ The packages used by the project are as follows:
 
 See `package.json` file for version details.
 
-To see the final result, visit [Entertainix](entertainix.netlify.com).
+To see the final result, visit [Entertainix](https://entertainix.netlify.app/).
